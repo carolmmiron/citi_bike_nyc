@@ -7,7 +7,6 @@ import plotly.express as px
 import plotly.graph_objects as go
 import matplotlib.pyplot as plt
 from datetime import datetime as dt
-from numerize import numerize
 from PIL import Image
 
 ########################### Initial settings for the dashboard ####################################################
