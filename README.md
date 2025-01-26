@@ -57,8 +57,6 @@ Actionable insights to optimize Citi Bike services:
 
 ---
 
-## Getting Started
-
 ### Dataset
 
 - **Source** : Citi Bike trip data (2022)
