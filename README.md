@@ -56,7 +56,6 @@ Actionable insights to optimize Citi Bike services:
 - Use predictive analytics to improve bike availability at key stations.
 
 ---
-
 ### Dataset
 
 - **Source** : Citi Bike trip data (2022)
