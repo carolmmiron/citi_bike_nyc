@@ -1,22 +1,8 @@
-<<<<<<< HEAD
-﻿streamlit<1.40.1 
-pandas<2.2.3 
-numpy<=1.26.4 
-seaborn<0.13.2 
-plotly<5.24.1 
-matplotlib<3.9.2 
-streamlit-keplergl<0.3.0 
-keplergl<0.3.2 
-pillow<11.0.0 
-=======
-﻿streamlit<1.40.1
-pandas<2.2.3
-numpy<=1.26.4
-seaborn<0.13.2
-plotly<5.24.1
-matplotlib<3.9.2
-streamlit-keplergl<0.3.0
-keplergl<0.3.2
-pillow<11.0.0
->>>>>>> 4b7c1a6 (Normalize line endings and add changes)
-numerize<0.12
+﻿plotly==5.13.0
+streamlit==1.20.0 
+matplotlib==3.7.1 
+streamlit_keplergl numerize==0.12 
+pillow==9.4.0 
+python-dotenv==1.0.1 
+pandas==1.5.3 
+numpy==1.25.1
