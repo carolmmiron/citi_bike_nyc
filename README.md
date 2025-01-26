@@ -1,6 +1,6 @@
 # Citi Bikes Strategy Dashboard
 
-![Citi Bikes](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Citi_Bike_Brand_Logo.svg/512px-Citi_Bike_Brand_Logo.svg.png)
+![Citi Bikes](Images/easy_bikes.png)
 
 ## Overview
 
@@ -24,6 +24,10 @@ An interactive visualization of NYC Citi Bike trips using **Kepler.gl**:
 - Displays the most popular routes and station connections.
 - Highlights commuter and recreational traffic patterns.
 
+#### Screenshot
+![NYC Interactive Map](Images/nyc_bike_map.png)
+
+
 ### 3. Top Stations Analysis
 In-depth analysis of the top 20 start and end stations:
 - Segmented by **user type** (members vs casual users) and **seasonal trends**.
@@ -41,6 +45,10 @@ Detailed breakdown of user behavior:
 - **Members:** Use bikes consistently on weekdays for commuting.
 - Highlights bike type preferences (electric vs classic).
 
+#### Screenshot
+![NYC Interactive Map](Images/user_activity.png)
+
+
 ### 6. Strategic Recommendations
 Actionable insights to optimize Citi Bike services:
 - Expand stations in high-demand areas (e.g., waterfronts).
@@ -51,12 +59,14 @@ Actionable insights to optimize Citi Bike services:
 
 ## Getting Started
 
-### Prerequisites
-Ensure you have the following installed:
-- Python 3.9+
-- Pip
+### Dataset
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-repository/citi-bikes-dashboard.git
+- **Source** : Citi Bike trip data (2022)
+- The dataset has been processed and reduced to optimize performance on the platform.
+
+### Technologies used: 
+1. **Pandas & NumPy** : Data Processing and analysis
+2. **Plotly & Matplotlib** : Graphical analysis
+3. **Kepler.gl**: Interactive Map Visualization
+4. **Streamlit** : Interactive web app framework
+  
