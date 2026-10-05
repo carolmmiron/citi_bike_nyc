@@ -1,4 +1,4 @@
-# Citi Bikes Strategy Dashboard
+# Citi Bike Strategy Dashboard
 
 ![Citi Bikes](Images/easy_bikes.png)
 
@@ -14,10 +14,11 @@ The project uses **data-driven insights** and interactive visualizations to addr
 
 ### 1. Dashboard Overview
 A high-level summary of Citi Bikes' usage trends and operational statistics, including:
-- **Total Users:** 289,288
-- **Average Trip Duration:** 10.15 minutes
+- **Trips Analysed:** 9,946,056 (2022)
+- **Median Trip Duration:** 10.1 minutes
 - **Peak Usage Season:** Summer
 - **Top Station:** W 21 St & 6 Ave
+- **Temperature–Rides Correlation:** 0.85
 
 ### 2. Interactive Trip Map
 An interactive visualization of NYC Citi Bike trips using **Kepler.gl**:
@@ -58,8 +59,15 @@ Actionable insights to optimize Citi Bike services:
 ---
 ### Dataset
 
-- **Source** : Citi Bike trip data (2022)
-- The dataset has been processed and reduced to optimize performance on the platform.
+- **Source** : Citi Bike trip data (2022) and NOAA daily temperatures
+- Trip-level charts use a random sample of 289,886 trips (~3%), stored as `Data/citibike_2022_sample.csv.gz`; daily totals use the full dataset.
+
+### Run locally
+
+```
+pip install -r requirements.txt
+streamlit run app.py
+```
 
 ### Technologies used: 
 1. **Pandas & NumPy** : Data Processing and analysis
